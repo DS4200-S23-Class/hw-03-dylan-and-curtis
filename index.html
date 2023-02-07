@@ -1,14 +1,102 @@
 <!DOCTYPE html>
-<html> 
+<html>
 
 <head>
-    <meta charset=utf-8/>
+    <meta charset=utf-8 />
+    <title>hw-03</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 
 <body>
+    <h1 class="centered">
+        hw-03: Interactive Webpage, and Marks & Channels
+    </h1>
+    <div class="row">
+        <div class="col">
+            <img src="img/vis1.png">
 
+        </div>
+        <div class="col">
+            <h2>Marks</h2>
+            <ul>
+                <li>Areas denote the states.</li>
+                <li>A line denotes the total electoral college votes.</li>
+                <li>A point denotes the winning threshold on the line.</li>
+                <li>Points denote the electoral votes of Nebraska and Maine.</li>
+            </ul>
+            <h2>Channels</h2>
+            <ul>
+                <li>Color for the party that would win the state, or striped of the state is divided. This is a good
+                    choice because color clearly shows the distribution of two possible major parties.</li>
+                <li>Length of color on the line based on amount of electoral votes the party would get. This is a good
+                    choice because it clearly indicates the margin that either candidate won by.</li>
+                <li>Shape for the triangle denotes winning threshold on line. This is an ok choice. A vertical line
+                    would have been a more clear indicator.</li>
+                <li>Shape for the squares represents electoral votes. This is a good choice because it's a relatively
+                    simple shape.</li>
+            </ul>
+            <h2>Colors</h2>
+            <ul>
+                <li>Categorical red and blue colormap indicating red for Republican and blue for Democrat. Again, this
+                    is a good choice because the two colors clearly indicate the two major USA political parties.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="img/vis2.png">
+        </div>
+        <div class="col">
+            <h2>Marks</h2>
+            <ul>
+                <li>Points denote batted balls.</li>
+                <li>Lines classify angles.</li>
+                <li>Lines indicate scoring values as a legend.</li>
+            </ul>
+            <h2>Channels</h2>
+            <ul>
+                <li>Color denotes the scoring value of the ball. This is a good choice because a spectrum of color
+                    directs
+                    the eye towards extremes of note.</li>
+                <li>Position denotes the launch angle and the exit velocity. This is a good choice because it clearly
+                    maps batted in relation to each other based on two variables in an x-y coordinate plane.</li>
+                <li>Position denotes the threshold for classifying angles (e.g. groundballs below 10 degrees. This is a
+                    good choice because the y intercept of the horizontal lines clearly divides the lanuch angles into
+                    an "above" and "below" category.</li>
+            </ul>
+            <h2>Colors</h2>
+            <ul>
+                <li>Divergent purple to orange colormap indicates blow average for purple, average for white, and above
+                    average for orange. This is a good choice because divergent colormaps allow for comparison of
+                    magnitudes above or below and average</li>
+            </ul>
 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="img/vis1.png">
+
+        </div>
+        <div class="col">
+            <h2>Marks</h2>
+            <ul>
+                <li></li>
+            </ul>
+            <h2>Channels</h2>
+            <ul>
+                <li></li>
+            </ul>
+            <h2>Colors</h2>
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2 class="centered">Acknowledgements</h2>
+    </div>
 </body>
 
 </html>

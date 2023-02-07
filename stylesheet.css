@@ -1,0 +1,15 @@
+html {
+    font-family: Arial;
+}
+
+.centered {
+    text-align: center;
+}
+
+.col {
+    flex: 50%;
+}
+
+.row {
+    display: flex;
+}
